@@ -32,7 +32,7 @@ class StoreTest(BaseTest):
 
     def test_store_json(self):
         store = StoreModel('Test')
-        expected_json = {'id': 1,
+        expected_json = {'id': None,
                          'name': 'Test',
                          'items': []
                         }
